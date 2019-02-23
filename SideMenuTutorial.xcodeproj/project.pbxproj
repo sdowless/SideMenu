@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		230177B82221F3010073EC00 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230177B72221F3010073EC00 /* SettingsController.swift */; };
 		2329868221C1DB7600BBF93D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2329868121C1DB7600BBF93D /* AppDelegate.swift */; };
 		2329868721C1DB7600BBF93D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2329868521C1DB7600BBF93D /* Main.storyboard */; };
 		2329868921C1DB7700BBF93D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2329868821C1DB7700BBF93D /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		230177B72221F3010073EC00 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 		2329867E21C1DB7600BBF93D /* SideMenuTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideMenuTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2329868121C1DB7600BBF93D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2329868621C1DB7600BBF93D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				2329869721C1DBAE00BBF93D /* ContainerController.swift */,
 				2329869921C1DBB700BBF93D /* HomeController.swift */,
 				2329869B21C1DBBF00BBF93D /* MenuController.swift */,
+				230177B72221F3010073EC00 /* SettingsController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				230177B82221F3010073EC00 /* SettingsController.swift in Sources */,
 				2329869E21C1DF0900BBF93D /* Protocols.swift in Sources */,
 				232986A021C1E64800BBF93D /* MenuOptionCell.swift in Sources */,
 				232986A621C1EF1C00BBF93D /* MenuOption.swift in Sources */,
